@@ -1,0 +1,14 @@
+{
+  "$schema": "../schemas/domain.schema.json",
+  "description": "<describe your project in this field>",
+  "domain": "is-a.co",
+  "subdomain": "<discord>",
+  "owner": {
+    "repo": "<https://URL/to/the/repository/with/subdomain/content/sources>",
+    "email": "<kittykay2010@outlook.com>"
+  },
+  "record": {
+    "NS": ["ns1.byet.org", "ns2.byet.org", "ns3.byet.org" "ns4.byet.org", "ns5.byet.org"]
+  },
+  "proxy": false // disable the CF proxy, proxying is always enabled by default
+}
